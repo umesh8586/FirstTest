@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Online Voting System</title>
+<link rel = "stylesheet" type = "text/css" href = "style.css">
+</head>
+
+<body>
+<nav>
+  <a href="home.jsp">Home</a> |
+  <a href="About">CSS</a> |
+  <a href="Contact">JavaScript</a> 
+</nav>
+</body>
+</html>

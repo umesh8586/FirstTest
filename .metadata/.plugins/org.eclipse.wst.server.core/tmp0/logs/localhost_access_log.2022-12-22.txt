@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:15:00:46 +0530] "GET /Online_Voting_System/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [22/Dec/2022:15:00:47 +0530] "GET /favicon.ico HTTP/1.1" 404 762

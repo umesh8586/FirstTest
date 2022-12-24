@@ -1,0 +1,54 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>New Register</title>
+</head>
+<body>
+<%@include file="adminnav.jsp" %>
+<div class = "formBack">
+<form>
+<h5>Please Fill The Details</h5>
+<label for="fname">Name :</label>
+<br>
+<input name = "fname" id = "fname" type = "text" >
+<br>
+<label for="phone">Phone Number :</label>
+<br>
+<input name = "phone" id = "phone" type = "number" >
+<br>
+<label for="emailid">Email :</label>
+<br>
+<input name = "emailid" id = "emailid" type = "email" >
+<br>
+<label for="gender">Gender :</label>
+<br>
+<input type="radio" id="male" name="gender" value="M">
+  <label for="male">Male</label><br>
+  <input type="radio" id="female" name="gender" value="F">
+  <label for="female">Female</label><br>
+  <input type="radio" id="transgender" name="gender" value="T">
+  <label for="transgender">Transgender</label>
+  
+  <br>
+  <label for="dateof">Date Of Birth :</label>
+<br>
+<input name = "dateof" id = "dateof" type = "date" >
+<br>
+  <label for="add">Address :</label>
+<br>
+<input name = "add" id = "add" type = "text" >
+<br>
+<label for="voternum">Voter id Number :</label>
+<br>
+<input name = "voternum" id = "voternum" type = "text" >
+<input type="submit" value="Submit">
+<input type="reset" value="Clear">
+
+<br>
+</form>
+</div>
+</body>
+</html>

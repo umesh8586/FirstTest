@@ -1,0 +1,16 @@
+import java.sql.Connection;
+
+public class DBManager {
+	public Connection getConnection()
+	{
+		try
+		{
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		java.sql.Connection con = DriverManagement.getconnection
+				("jdbc:mysql://localhost:3306")
+
+		}
+		catch()
+	}
+
+}
